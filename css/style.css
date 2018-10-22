@@ -39,7 +39,8 @@
     font-family: 'Black Han Sans', sans-serif;
     font-size: 5.5em;
     line-height: 1;
-    margin-top: 0.7em; }
+    margin-top: 0.7em;
+    width: 50%; }
   .hero__subtitle {
     width: 95%;
     margin: 0.2em 0 0 0.3em;
