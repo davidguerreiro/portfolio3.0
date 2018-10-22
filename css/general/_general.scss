@@ -6,3 +6,9 @@ html {
 .header {
     width: 100%;
 }
+
+.section {
+    width: $center-width;
+    margin: $auto;
+    max-width: $layout-max-width;
+}

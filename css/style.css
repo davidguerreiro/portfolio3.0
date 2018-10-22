@@ -1,7 +1,4 @@
 .navigation-bar {
-  width: 90%;
-  max-width: 1450px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between; }
   .navigation-bar li {
@@ -35,12 +32,45 @@
   .navigation-bar__social .navigation-linkedin-icon {
     width: 1.4em; }
 
+.hero {
+  display: flex;
+  justify-content: space-around; }
+  .hero__title {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 5.5em;
+    line-height: 1;
+    margin-top: 0.7em; }
+  .hero__subtitle {
+    width: 95%;
+    margin: 0.2em 0 0 0.3em;
+    padding-bottom: 0.1em;
+    border-bottom: 2px solid #e2e2e2; }
+  .hero__description {
+    width: 80%;
+    margin-top: 2em;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-left: 0.3em; }
+  .hero__image {
+    display: block;
+    width: 25em;
+    height: auto;
+    margin-top: 4.5em;
+    border-radius: 50%;
+    filter: grayscale(0.5);
+    -webkit-filter: grayscale(0.5); }
+
 html {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif; }
 
 .header {
   width: 100%; }
+
+.section {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1450px; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -405,3 +435,7 @@ p {
 ul {
   padding: 0;
   margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
