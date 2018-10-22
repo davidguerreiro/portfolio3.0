@@ -1,4 +1,11 @@
 @charset 'UTF-8';
 
+// abstracts
+@import "abstracts/variables";
+
+// components
+@import "components/top-navigation-bar";
+
+// normalize and general styles
 @import "general/general";
 @import "vendors/normalize";
