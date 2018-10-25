@@ -3,11 +3,16 @@
 // abstracts
 @import "abstracts/variables";
 
+// normalize and general styles
+@import "general/general";
+@import "vendors/normalize";
+
+// layout
+@import "layout/wp-section";
+
 // components
 @import "components/top-navigation-bar";
 @import "components/hero";
 @import "components/skill-title";
+@import "components/skill-section";
 
-// normalize and general styles
-@import "general/general";
-@import "vendors/normalize";

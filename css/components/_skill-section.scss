@@ -1,0 +1,36 @@
+.skill-section {
+
+    &__content {
+        width: 50%;
+    }
+
+    &__wrapper {
+        display: flex;
+        margin-top: 1.8em;
+    }
+
+    &__skill-list {
+        width: 50%;
+
+        h4 {
+            padding: 1em;
+            font-size: 1.5em;
+        }
+
+        ul {
+            list-style-type: none;
+            width: 80%;
+
+            li {
+                font-size: 1.3em;
+
+                &::before {
+                    content: '-';
+                }
+            }
+        }
+
+    }
+
+
+}
