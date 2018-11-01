@@ -458,7 +458,11 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.8; }
 
 .skill-section__content {
-  width: 50%; }
+  width: 50%;
+  margin-top: 2em; }
+  .skill-section__content p {
+    margin-bottom: 1em;
+    line-height: 1.7; }
 
 .skill-section__wrapper {
   display: flex; }

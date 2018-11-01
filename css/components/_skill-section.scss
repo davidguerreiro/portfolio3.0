@@ -2,6 +2,12 @@
 
     &__content {
         width: 50%;
+        margin-top: 2em;
+
+        p {
+            margin-bottom: 1em;
+            line-height: 1.7;
+        }
     }
 
     &__wrapper {
