@@ -9,8 +9,6 @@ html {
   width: 90%;
   margin: 0 auto;
   max-width: 1450px; }
-  .section__title {
-    font-size: 1.5em; }
   .section p {
     font-size: 1.1em;
     line-height: 1.5; }
@@ -454,7 +452,10 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-filter: grayscale(0.5); }
 
 .skill-title {
-  margin-top: 2em; }
+  margin-top: 5em; }
+  .skill-title h3 {
+    font-size: 2em;
+    border-bottom: 2px solid #e2e2e2; }
 
 .skill-section__content {
   width: 50%; }
