@@ -6,27 +6,30 @@
 
     &__wrapper {
         display: flex;
-        margin-top: 1.8em;
     }
 
-    &__skill-list {
-        width: 50%;
+    &__list-wrapper {
 
-        h4 {
-            padding: 1em;
-            font-size: 1.5em;
-        }
 
         ul {
+            background-color: #828282;
+            color: $white;
             list-style-type: none;
             width: 80%;
+            margin-left: auto;
+            padding: 2em;
 
             li {
-                font-size: 1.3em;
+                font-size: 0.9em;
+                margin-bottom: 0.8em;
+                padding-left: 15px;
 
-                &::before {
-                    content: '-';
+                &:first-child { 
+                    font-size: 1.5em;
+                    padding-left: 0;
                 }
+
+
             }
         }
 

@@ -1,9 +1,3 @@
 .wp-section {
-    h3 {
-        border-bottom-color: $wp-section-color !important;
-    }
-
-    &__list {
-      
-    }
+    background-color: $wp-section-color;
 }
