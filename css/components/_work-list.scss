@@ -15,21 +15,21 @@
         flex-wrap: wrap;
 
         &:first-child {
-            @include set_dot_border( border-right );
-            @include set_dot_border( border-bottom );
+            @include set_dot_border( border-right, $grey );
+            @include set_dot_border( border-bottom, $grey );
         }
 
         article:first-of-type {
-            @include set_dot_border( border-right );
-            @include set_dot_border( border-bottom );
+            @include set_dot_border( border-right, $grey );
+            @include set_dot_border( border-bottom, $grey );
         }
 
         article:nth-of-type(2) {
-            @include set_dot_border( border-bottom );
+            @include set_dot_border( border-bottom, $grey );
         }
 
         article:nth-of-type(3) {
-            @include set_dot_border( border-right );
+            @include set_dot_border( border-right, $grey );
         }
 
     }
@@ -48,8 +48,8 @@
 
              li {
                 display: inline-block;
-                padding-left : 0.5em;
-                 
+                padding-left : 0.2em;
+                color: $grey;
              }
         }
 
