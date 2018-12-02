@@ -1,0 +1,64 @@
+.work-list {
+    width: 90%;
+    margin: 0 auto;
+
+    &__title {
+        text-align: center;
+        font-size: 2.3em;
+        font-weight: 100;
+        opacity: 0.8;
+        padding: 1em 0;
+    }
+
+    &__items-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        &:first-child {
+            @include set_dot_border( border-right );
+            @include set_dot_border( border-bottom );
+        }
+
+        article:first-of-type {
+            @include set_dot_border( border-right );
+            @include set_dot_border( border-bottom );
+        }
+
+        article:nth-of-type(2) {
+            @include set_dot_border( border-bottom );
+        }
+
+        article:nth-of-type(3) {
+            @include set_dot_border( border-right );
+        }
+
+    }
+
+    .work-list-item {
+        width: 49%;
+
+        &__title {
+            font-size: 2em;
+            margin: 0.5em 0 0.1em 0.7em;
+        }
+
+        &__properties {
+            list-style-type: none;
+            margin-left: 1.5em;
+
+             li {
+                display: inline-block;
+                padding-left : 0.5em;
+                 
+             }
+        }
+
+        &__description {
+            margin: 1.5em 0 1em 1em;
+            font-size: 0.95em;
+            width: 80%;
+            padding: 0 0 1em 0.5em;
+        }
+
+    }
+}

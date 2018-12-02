@@ -1,0 +1,4 @@
+// display basic border dot
+@mixin set_dot_border( $property ) {
+    #{$property}: 1px dotted $black;
+  }

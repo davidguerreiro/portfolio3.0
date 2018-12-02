@@ -2,6 +2,7 @@
 
 // abstracts
 @import "abstracts/variables";
+@import "abstracts/mixins";
 
 // normalize and general styles
 @import "general/general";
@@ -15,4 +16,5 @@
 @import "components/hero";
 @import "components/skill-title";
 @import "components/skill-section";
+@import "components/work-list";
 

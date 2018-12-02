@@ -481,3 +481,42 @@ h1, h2, h3, h4, h5, h6 {
     .skill-section__list-wrapper ul li:first-child {
       font-size: 1.5em;
       padding-left: 0; }
+
+.work-list {
+  width: 90%;
+  margin: 0 auto; }
+  .work-list__title {
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: 100;
+    opacity: 0.8;
+    padding: 1em 0; }
+  .work-list__items-wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+    .work-list__items-wrapper:first-child {
+      border-right: 1px dotted #000000;
+      border-bottom: 1px dotted #000000; }
+    .work-list__items-wrapper article:first-of-type {
+      border-right: 1px dotted #000000;
+      border-bottom: 1px dotted #000000; }
+    .work-list__items-wrapper article:nth-of-type(2) {
+      border-bottom: 1px dotted #000000; }
+    .work-list__items-wrapper article:nth-of-type(3) {
+      border-right: 1px dotted #000000; }
+  .work-list .work-list-item {
+    width: 49%; }
+    .work-list .work-list-item__title {
+      font-size: 2em;
+      margin: 0.5em 0 0.1em 0.7em; }
+    .work-list .work-list-item__properties {
+      list-style-type: none;
+      margin-left: 1.5em; }
+      .work-list .work-list-item__properties li {
+        display: inline-block;
+        padding-left: 0.5em; }
+    .work-list .work-list-item__description {
+      margin: 1.5em 0 1em 1em;
+      font-size: 0.95em;
+      width: 80%;
+      padding: 0 0 1em 0.5em; }
