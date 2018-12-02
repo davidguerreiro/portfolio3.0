@@ -1,6 +1,6 @@
 // display basic border dot
 @mixin set_dot_border( $property, $color : $black ) {
-    #{$property}: 1px dotted $black;
+    #{$property}: 1px dotted $color;
   }
 
 // execute transition.
