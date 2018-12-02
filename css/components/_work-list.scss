@@ -60,5 +60,48 @@
             padding: 0 0 1em 0.5em;
         }
 
+        &__links {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0 1.5em 2em 0;
+
+            li {
+                margin-right: 10px;
+            }
+        }
+
+        &__link {
+            display: block;
+            text-decoration: none;
+            @include do-transition( background-color );
+            padding: 0.5em;
+
+            img {
+                display: block;
+                width: 2em;
+                height: auto;
+                margin: 0 auto;
+            }
+
+
+            &--website {
+                &:hover {
+                    background-color: #fbf17c;
+                }
+            }
+
+            &--code {
+                &:hover {
+                    background-color: #f5c0f5;
+                }
+            }
+        }
+
+        &__caption {
+            font-size: 0.8em;
+            color: $grey;
+        }
+
     }
 }
