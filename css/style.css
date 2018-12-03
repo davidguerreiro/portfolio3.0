@@ -13,6 +13,9 @@ html {
     font-size: 1.1em;
     line-height: 1.5; }
 
+.main-section {
+  max-width: 1450px; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -560,72 +563,68 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 0.8em;
       color: #808080; }
 
-.js-section__title {
-  text-align: center;
-  font-size: 2.3em;
-  font-weight: 100;
-  opacity: 0.8;
-  padding: 1em 0; }
-
-.js-section__wrapper {
-  display: flex;
-  flex-direction: row-reverse; }
-
-.js-section__content {
-  width: 50%; }
-
-.js-section__text {
-  line-height: 1.7;
-  width: 75%;
-  margin: 0 auto;
-  padding-bottom: 1em; }
-  .js-section__text a {
-    text-decoration: none;
-    color: #d29b1f; }
-    .js-section__text a:hover {
-      text-decoration: underline; }
-
-.js-section__skill-list {
-  width: 65%;
-  /* add min width */
-  margin: 1.8em auto 0 auto;
-  background-color: #ffb610;
-  padding: 2em; }
-  .js-section__skill-list h4 {
-    font-size: 1.25em;
+.js-section {
+  margin: 0 auto; }
+  .js-section__title {
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: 100;
+    opacity: 0.8;
+    padding: 1em 0; }
+  .js-section__wrapper {
+    display: flex;
+    flex-direction: row-reverse; }
+  .js-section__content {
+    width: 50%; }
+  .js-section__text {
+    line-height: 1.7;
+    width: 75%;
+    margin: 0 auto;
     padding-bottom: 1em; }
-  .js-section__skill-list ul {
-    list-style-type: none; }
-    .js-section__skill-list ul li {
+    .js-section__text a {
+      text-decoration: none;
+      color: #d29b1f; }
+      .js-section__text a:hover {
+        text-decoration: underline; }
+  .js-section__skill-list {
+    width: 65%;
+    /* add min width */
+    margin: 1.8em auto 0 auto;
+    background-color: #ffb610;
+    padding: 2em; }
+    .js-section__skill-list h4 {
+      font-size: 1.25em;
+      padding-bottom: 1em; }
+    .js-section__skill-list ul {
+      list-style-type: none; }
+      .js-section__skill-list ul li {
+        margin-bottom: 1em; }
+
+.other-skills {
+  background-color: #f5f5f5; }
+  .other-skills__title {
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: 100;
+    opacity: 0.8;
+    padding: 1em 0;
+    margin: 1em auto 0 auto; }
+  .other-skills__skill-ilustration {
+    display: block;
+    width: 10em;
+    height: auto;
+    margin: 8.5em auto 0 auto; }
+  .other-skills__wrapper {
+    display: flex;
+    margin: 0 auto; }
+  .other-skills__content {
+    width: 50%; }
+    .other-skills__content--alternative {
+      background-color: #ffffff; }
+  .other-skills__skills-list {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+    list-style-type: circle; }
+    .other-skills__skills-list li {
       margin-bottom: 1em; }
-
-.other-skills__title {
-  text-align: center;
-  font-size: 2.3em;
-  font-weight: 100;
-  opacity: 0.8;
-  padding: 1em 0;
-  background-color: #f5f5f5;
-  margin-top: 1em; }
-
-.other-skills__skill-ilustration {
-  display: block;
-  width: 10em;
-  height: auto;
-  margin: 8.5em auto 0 auto; }
-
-.other-skills__wrapper {
-  display: flex; }
-
-.other-skills__content {
-  width: 50%; }
-  .other-skills__content--alternative {
-    background-color: #f5f5f5; }
-
-.other-skills__skills-list {
-  width: 80%;
-  margin: 0 auto;
-  padding: 2em 0;
-  list-style-type: circle; }
-  .other-skills__skills-list li {
-    margin-bottom: 1em; }
