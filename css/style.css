@@ -635,16 +635,64 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #000000;
   color: #ffffff;
   display: flex;
-  padding: 1em 0; }
-  .main-footer .footer-nav a {
-    display: block;
-    border: 2px solid transparent;
-    border-radius: 50%;
-    transition: border 0.5s ease;
-    padding: 0.5em; }
-    .main-footer .footer-nav a img {
-      width: 1.8em;
-      height: auto;
-      vertical-align: middle; }
-    .main-footer .footer-nav a:hover {
-      border: 2px solid #ffffff; }
+  padding: 1.5em 0;
+  justify-content: center; }
+  .main-footer__author-resume {
+    flex-grow: 1; }
+    .main-footer__author-resume p {
+      width: 70%;
+      margin: 0 auto;
+      font-size: 1.1em;
+      border-bottom: 1px solid;
+      padding-bottom: 4px; }
+      .main-footer__author-resume p span {
+        float: right; }
+    .main-footer__author-resume .author-caption {
+      width: 70%;
+      margin: 0 auto;
+      display: block;
+      color: #a9a9a9;
+      padding-top: 5px;
+      font-size: 0.9em; }
+  .main-footer__center-section {
+    flex-grow: 2; }
+    .main-footer__center-section p {
+      text-align: center;
+      font-size: 1.1em;
+      padding-top: 0.2em; }
+      .main-footer__center-section p a {
+        text-decoration: none;
+        color: #ff99ff; }
+        .main-footer__center-section p a:hover {
+          text-decoration: underline; }
+    .main-footer__center-section .footer-center-caption {
+      display: block;
+      text-align: center;
+      padding-top: 8px;
+      font-size: 0.7em;
+      color: #a9a9a9; }
+      .main-footer__center-section .footer-center-caption a {
+        text-decoration: none;
+        color: #8383ff; }
+        .main-footer__center-section .footer-center-caption a:hover {
+          text-decoration: underline; }
+  .main-footer__navigation-section {
+    flex-grow: 1; }
+    .main-footer__navigation-section .footer-nav {
+      list-style-type: none;
+      width: 50%;
+      margin: 0 auto; }
+      .main-footer__navigation-section .footer-nav a {
+        display: block;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        transition: border 0.5s ease;
+        padding: 0.5em;
+        width: 2em; }
+        .main-footer__navigation-section .footer-nav a img {
+          width: 1.8em;
+          height: auto;
+          vertical-align: middle;
+          padding-left: 1px; }
+        .main-footer__navigation-section .footer-nav a:hover {
+          border: 2px solid #ffffff; }

@@ -2,24 +2,96 @@
     background-color: $black;
     color: $white;
     display: flex;
-    padding: 1em 0;
+    padding: 1.5em 0;
+    justify-content: center;
 
-    .footer-nav {
-        a {
-            display: block;
-            border: 2px solid transparent;
-            border-radius: 50%;
-            transition: border 0.5s ease;
-            padding: 0.5em;
+    &__author-resume {
+        flex-grow: 1;
 
-            img {
-                width: 1.8em;
-                height: auto;
-                vertical-align: middle;
+        p {
+            width: 70%;
+            margin: 0 auto;
+            font-size: 1.1em;
+            border-bottom: 1px solid;
+            padding-bottom: 4px;
+            
+            span {
+                float: right;
             }
+        }
 
-            &:hover {
-                border: 2px solid $white;
+        .author-caption {
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+            color: $footer-grey;
+            padding-top: 5px;
+            font-size: 0.9em;
+        }
+    }
+
+    &__center-section {
+        flex-grow: 2;
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+            padding-top: 0.2em;
+
+
+            a {
+                text-decoration: none;
+                color: #ff99ff;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .footer-center-caption {
+            display: block;
+            text-align: center;
+            padding-top: 8px;
+            font-size: 0.7em;
+            color: $footer-grey;
+
+            a {
+                text-decoration: none;
+                color: #8383ff;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    &__navigation-section {
+        flex-grow: 1;
+        .footer-nav {
+            list-style-type: none;
+            width: 50%;
+            margin: 0 auto;
+            
+            a {
+                display: block;
+                border: 2px solid transparent;
+                border-radius: 50%;
+                transition: border 0.5s ease;
+                padding: 0.5em;
+                width: 2em;
+
+                img {
+                    width: 1.8em;
+                    height: auto;
+                    vertical-align: middle;
+                    padding-left: 1px;
+                }
+
+                &:hover {
+                    border: 2px solid $white;
+                }
             }
         }
     }
