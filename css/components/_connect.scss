@@ -10,5 +10,48 @@
 
     &__social {
         display: flex;
+        list-style-type: none;
+
+        li {
+            flex-grow: 1;
+        }
+
+        img {
+            display: block;
+            width: 2em;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+
+    &__social-link {
+        display: block;
+        font-size: 2em;
+        padding: 2em 0;
+        @include do-transition( background-color );
+
+        &--mail {
+            &:hover {
+                background-color: $mail;
+            }
+        }
+
+        &--git {
+            &:hover {
+                background-color: $git;
+            }
+        }
+
+        &--twitter {
+            &:hover {
+                background-color: $twitter;
+            }
+        }
+
+        &--linkedin {
+            &:hover {
+                background-color: $linkedin;
+            }
+        }
     }
 }

@@ -696,3 +696,37 @@ h1, h2, h3, h4, h5, h6 {
           padding-left: 1px; }
         .main-footer__navigation-section .footer-nav a:hover {
           border: 2px solid #ffffff; }
+
+.connect__title {
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: 100;
+  opacity: 0.8;
+  padding: 1em 0; }
+
+.connect__social {
+  display: flex;
+  list-style-type: none; }
+  .connect__social li {
+    flex-grow: 1; }
+  .connect__social img {
+    display: block;
+    width: 2em;
+    height: auto;
+    margin: 0 auto; }
+
+.connect__social-link {
+  display: block;
+  font-size: 2em;
+  padding: 2em 0;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease; }
+  .connect__social-link--mail:hover {
+    background-color: #ffb2b2; }
+  .connect__social-link--git:hover {
+    background-color: #ffc7ff; }
+  .connect__social-link--twitter:hover {
+    background-color: #91d6f7; }
+  .connect__social-link--linkedin:hover {
+    background-color: #8d8dff; }
