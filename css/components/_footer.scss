@@ -3,26 +3,28 @@
     color: $white;
     display: flex;
     padding: 1.5em 0;
-    justify-content: center;
+    justify-content: space-between;
 
     &__author-resume {
-        flex-grow: 1;
+        padding-left: 3.5em;
+
+        p, .author-caption {
+            width: 100%;
+            max-width: 300px;
+        }
 
         p {
-            width: 70%;
-            margin: 0 auto;
             font-size: 1.1em;
             border-bottom: 1px solid;
             padding-bottom: 4px;
             
             span {
                 float: right;
+                padding-left: 2.5em;
             }
         }
 
         .author-caption {
-            width: 70%;
-            margin: 0 auto;
             display: block;
             color: $footer-grey;
             padding-top: 5px;
@@ -31,7 +33,7 @@
     }
 
     &__center-section {
-        flex-grow: 2;
+        padding-right: 3.5em;
 
         p {
             text-align: center;
