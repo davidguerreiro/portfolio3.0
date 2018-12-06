@@ -423,7 +423,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  max-width: 1700px; }
   .hero__title {
     font-family: 'Black Han Sans', sans-serif;
     font-size: 5.5em;
@@ -676,26 +677,6 @@ h1, h2, h3, h4, h5, h6 {
         color: #8383ff; }
         .main-footer__center-section .footer-center-caption a:hover {
           text-decoration: underline; }
-  .main-footer__navigation-section {
-    flex-grow: 1; }
-    .main-footer__navigation-section .footer-nav {
-      list-style-type: none;
-      width: 50%;
-      margin: 0 auto; }
-      .main-footer__navigation-section .footer-nav a {
-        display: block;
-        border: 2px solid transparent;
-        border-radius: 50%;
-        transition: border 0.5s ease;
-        padding: 0.5em;
-        width: 2em; }
-        .main-footer__navigation-section .footer-nav a img {
-          width: 1.8em;
-          height: auto;
-          vertical-align: middle;
-          padding-left: 1px; }
-        .main-footer__navigation-section .footer-nav a:hover {
-          border: 2px solid #ffffff; }
 
 .connect {
   margin: 0 auto; }

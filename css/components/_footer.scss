@@ -68,33 +68,4 @@
             }
         }
     }
-
-    &__navigation-section {
-        flex-grow: 1;
-        .footer-nav {
-            list-style-type: none;
-            width: 50%;
-            margin: 0 auto;
-            
-            a {
-                display: block;
-                border: 2px solid transparent;
-                border-radius: 50%;
-                transition: border 0.5s ease;
-                padding: 0.5em;
-                width: 2em;
-
-                img {
-                    width: 1.8em;
-                    height: auto;
-                    vertical-align: middle;
-                    padding-left: 1px;
-                }
-
-                &:hover {
-                    border: 2px solid $white;
-                }
-            }
-        }
-    }
 }

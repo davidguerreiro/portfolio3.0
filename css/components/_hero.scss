@@ -1,6 +1,7 @@
 .hero {
     display: flex;
     justify-content: space-around;
+    max-width: 1700px;
 
     &__title {
         font-family: 'Black Han Sans', sans-serif;
