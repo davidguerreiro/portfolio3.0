@@ -13,6 +13,7 @@
     }
 
     &__main-navigation {
+        display: block;
 
         a {
             border-bottom: 1px solid transparent;
@@ -25,12 +26,20 @@
                 border-bottom: 1px solid $black;
             }
         }
+
+        @media all and ( max-width: 470px ) {
+            display: none;
+        }
     }
 
     &__social {
 
         li {
             padding: 1em 0.5em;
+
+            @media all and ( max-width: 470px ) {
+                padding: 1em 1.5em;
+            } 
         }
 
         a {
@@ -53,6 +62,10 @@
 
         .navigation-linkedin-icon {
             width: 1.4em;
+        }
+
+        @media all and ( max-width: 470px ) {
+            margin: 0 auto;
         }
 
     }
