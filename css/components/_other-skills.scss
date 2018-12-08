@@ -20,13 +20,25 @@
     &__wrapper {
         display: flex;
         margin: 0 auto;
+
+        @media all and ( max-width: 660px ) {
+            flex-flow: column;
+        }
     }
 
     &__content {
         width: 50%;
 
+        @media all and ( max-width: 660px ) {
+            width: 100%;
+        }
+
         &--alternative {
             background-color: $white;
+
+            @media all and ( max-width: 660px ) {
+                display: none;
+            }
         }
     }
 

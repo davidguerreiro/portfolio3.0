@@ -709,10 +709,19 @@ h1, h2, h3, h4, h5, h6 {
   .other-skills__wrapper {
     display: flex;
     margin: 0 auto; }
+    @media all and (max-width: 660px) {
+      .other-skills__wrapper {
+        flex-flow: column; } }
   .other-skills__content {
     width: 50%; }
+    @media all and (max-width: 660px) {
+      .other-skills__content {
+        width: 100%; } }
     .other-skills__content--alternative {
       background-color: #ffffff; }
+      @media all and (max-width: 660px) {
+        .other-skills__content--alternative {
+          display: none; } }
   .other-skills__skills-list {
     width: 80%;
     margin: 0 auto;
