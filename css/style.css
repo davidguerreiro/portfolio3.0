@@ -736,11 +736,21 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   padding: 1.5em 0;
   justify-content: space-between; }
+  @media all and (max-width: 550px) {
+    .main-footer {
+      flex-direction: column; } }
   .main-footer__author-resume {
     padding-left: 3.5em; }
+    @media all and (max-width: 550px) {
+      .main-footer__author-resume {
+        padding-left: 0;
+        margin: 0 auto; } }
     .main-footer__author-resume p, .main-footer__author-resume .author-caption {
       width: 100%;
       max-width: 300px; }
+      @media all and (max-width: 550px) {
+        .main-footer__author-resume p, .main-footer__author-resume .author-caption {
+          max-width: 150px; } }
     .main-footer__author-resume p {
       font-size: 1.1em;
       border-bottom: 1px solid;
@@ -748,13 +758,23 @@ h1, h2, h3, h4, h5, h6 {
       .main-footer__author-resume p span {
         float: right;
         padding-left: 2.5em; }
+        @media all and (max-width: 550px) {
+          .main-footer__author-resume p span {
+            display: none; } }
     .main-footer__author-resume .author-caption {
       display: block;
       color: #a9a9a9;
       padding-top: 5px;
       font-size: 0.9em; }
+      @media all and (max-width: 550px) {
+        .main-footer__author-resume .author-caption {
+          font-size: 0.7em; } }
   .main-footer__center-section {
     padding-right: 3.5em; }
+    @media all and (max-width: 550px) {
+      .main-footer__center-section {
+        padding-right: 0;
+        margin-top: 1.5em; } }
     .main-footer__center-section p {
       text-align: center;
       font-size: 1.1em;

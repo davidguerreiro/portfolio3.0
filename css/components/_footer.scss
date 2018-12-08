@@ -5,12 +5,25 @@
     padding: 1.5em 0;
     justify-content: space-between;
 
+    @media all and ( max-width: 550px ) {
+        flex-direction: column;
+    }
+
     &__author-resume {
         padding-left: 3.5em;
+
+        @media all and ( max-width: 550px ) {
+            padding-left: 0;
+            margin: 0 auto;
+        }
 
         p, .author-caption {
             width: 100%;
             max-width: 300px;
+
+            @media all and ( max-width: 550px ) {
+                max-width: 150px;
+            }
         }
 
         p {
@@ -21,6 +34,10 @@
             span {
                 float: right;
                 padding-left: 2.5em;
+
+                @media all and ( max-width: 550px ) {
+                    display: none;
+                }
             }
         }
 
@@ -29,11 +46,20 @@
             color: $footer-grey;
             padding-top: 5px;
             font-size: 0.9em;
+
+            @media all and ( max-width: 550px ) {
+                font-size: 0.7em;
+            }
         }
     }
 
     &__center-section {
         padding-right: 3.5em;
+
+        @media all and ( max-width: 550px ) {
+            padding-right: 0;
+            margin-top: 1.5em;
+        }
 
         p {
             text-align: center;
