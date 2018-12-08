@@ -574,6 +574,8 @@ h1, h2, h3, h4, h5, h6 {
           border-right: none;
           border-top: 1px dotted #808080;
           border-bottom: 1px dotted #808080; }
+        .work-list__items-wrapper:last-child {
+          border-bottom: none; }
         .work-list__items-wrapper article:first-of-type {
           border-right: none;
           border-top: 1px dotted #808080;
@@ -648,8 +650,14 @@ h1, h2, h3, h4, h5, h6 {
   .js-section__wrapper {
     display: flex;
     flex-direction: row-reverse; }
+    @media all and (max-width: 800px) {
+      .js-section__wrapper {
+        flex-direction: column; } }
   .js-section__content {
     width: 50%; }
+    @media all and (max-width: 800px) {
+      .js-section__content {
+        width: 100%; } }
   .js-section__text {
     line-height: 1.7;
     width: 75%;
@@ -666,11 +674,21 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1.8em auto 0 auto;
     background-color: #ffb610;
     padding: 2em; }
+    @media all and (max-width: 535px) {
+      .js-section__skill-list {
+        width: 100%;
+        padding: 2em 0; } }
     .js-section__skill-list h4 {
       font-size: 1.25em;
       padding-bottom: 1em; }
+      @media all and (max-width: 500px) {
+        .js-section__skill-list h4 {
+          padding-left: 1.5em; } }
     .js-section__skill-list ul {
       list-style-type: none; }
+      @media all and (max-width: 500px) {
+        .js-section__skill-list ul {
+          padding-left: 2em; } }
       .js-section__skill-list ul li {
         margin-bottom: 1em; }
 
