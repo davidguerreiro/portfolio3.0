@@ -500,12 +500,20 @@ h1, h2, h3, h4, h5, h6 {
 .skill-section__content {
   width: 50%;
   margin-top: 2em; }
+  @media all and (max-width: 835px) {
+    .skill-section__content {
+      width: 90%;
+      display: block;
+      margin: 1em auto 0 auto; } }
   .skill-section__content p {
     margin-bottom: 1em;
     line-height: 1.7; }
 
 .skill-section__wrapper {
   display: flex; }
+  @media all and (max-width: 835px) {
+    .skill-section__wrapper {
+      flex-flow: column; } }
 
 .skill-section__list-wrapper ul {
   background-color: #828282;
@@ -514,6 +522,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
   margin-left: auto;
   padding: 2em; }
+  @media all and (max-width: 835px) {
+    .skill-section__list-wrapper ul {
+      margin: 1em auto 0 auto; } }
   .skill-section__list-wrapper ul li {
     font-size: 0.9em;
     margin-bottom: 0.8em;
