@@ -787,6 +787,9 @@ h1, h2, h3, h4, h5, h6 {
   .connect__social {
     display: flex;
     list-style-type: none; }
+    @media all and (max-width: 540px) {
+      .connect__social {
+        flex-flow: column; } }
     .connect__social li {
       flex-grow: 1; }
     .connect__social img {
@@ -803,9 +806,21 @@ h1, h2, h3, h4, h5, h6 {
     -moz-transition: background-color 0.3s ease; }
     .connect__social-link--mail:hover {
       background-color: #ffb2b2; }
+    @media all and (max-width: 540px) {
+      .connect__social-link--mail {
+        background-color: #ffb2b2; } }
     .connect__social-link--git:hover {
       background-color: #ffc7ff; }
+    @media all and (max-width: 540px) {
+      .connect__social-link--git {
+        background-color: #ffc7ff; } }
     .connect__social-link--twitter:hover {
       background-color: #91d6f7; }
+    @media all and (max-width: 540px) {
+      .connect__social-link--twitter {
+        background-color: #91d6f7; } }
     .connect__social-link--linkedin:hover {
       background-color: #8d8dff; }
+    @media all and (max-width: 540px) {
+      .connect__social-link--linkedin {
+        background-color: #8d8dff; } }

@@ -13,6 +13,10 @@
         display: flex;
         list-style-type: none;
 
+        @media all and ( max-width: 540px ) {
+            flex-flow: column;
+        }
+
         li {
             flex-grow: 1;
         }
@@ -35,10 +39,18 @@
             &:hover {
                 background-color: $mail;
             }
+
+            @media all and ( max-width: 540px ) {
+                background-color: $mail;
+            }
         }
 
         &--git {
             &:hover {
+                background-color: $git;
+            }
+
+            @media all and ( max-width: 540px ) {
                 background-color: $git;
             }
         }
@@ -47,10 +59,18 @@
             &:hover {
                 background-color: $twitter;
             }
+
+            @media all and ( max-width: 540px ) {
+                background-color: $twitter;
+            }
         }
 
         &--linkedin {
             &:hover {
+                background-color: $linkedin;
+            }
+
+            @media all and ( max-width: 540px ) {
                 background-color: $linkedin;
             }
         }
